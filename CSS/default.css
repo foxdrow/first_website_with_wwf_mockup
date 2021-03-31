@@ -1,0 +1,1117 @@
+/* GENERAL */
+html
+{
+    height: 100%;
+}
+body
+{
+    font-size: 15px;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+h1
+{
+    font-family: 'Asap', sans-serif;
+    text-transform: uppercase;
+}
+h4
+{
+    font-family: 'Asap', sans-serif;
+    font-weight: bold;
+}
+h5
+{
+    font-family: 'Asap', sans-serif;
+    font-weight: bold;
+}
+p
+{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a
+{
+    text-decoration: none;
+}
+.wrapper
+{
+    width: 85%;
+    margin: auto;
+    padding: 10px
+}
+.clear
+{
+    clear: both; 
+}
+/* HEADER */
+header
+{
+    height: 70px;
+    border-top: #D3D3D3 solid 1px
+}
+
+header a
+{
+    color: #000;
+}
+
+header nav
+{
+    margin-left: 50px;
+    display: inline-block
+}
+header nav ul li
+{
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+header nav ul li a
+{
+    text-transform: uppercase;
+    margin-right: 30px;
+    font-size: 15px;
+}
+header nav ul li a:hover
+{
+    border-bottom: solid #000 2px;
+    padding-bottom: 27px;
+}
+/* FOOTER */
+footer
+{
+    height: 250px;
+    background: url(../pictures/Capture%20d%E2%80%99%C3%A9cran%202020-02-11%20%C3%A0%2017.01.51.png);
+    background-size:contain;
+}
+footer p
+{
+    color: #fff;
+    font-size: 0.8em;
+    padding-top: 50px;
+    display: table;
+    margin: auto;
+}
+footer .p1
+{
+    font-size: 1.1em;
+}
+/* HEAD */
+#head
+{
+    background: url(../pictures/Capture%20d%E2%80%99%C3%A9cran%202020-02-11%20%C3%A0%2017.30.26.png);
+    background-size:contain;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+/* INDEX */
+
+
+/* MAIN IMAGE */
+#main-image
+{
+    min-height: 90vh;
+    background: url('../pictures/90da2f4ef2b64112d07305fa024bd8cd_13537_204f38ccbd6a3eb.jpg') no-repeat center;
+    background-size: cover;
+    color: #fff;
+    height: 100%;
+}
+#main-image div
+{
+    position:absolute;
+    top: 35%;
+    margin-left: 15vh;
+    width: 700px;
+}
+#main-image a
+{
+    color: #fff;
+}
+#main-image h1
+{
+    font-size: 4em;
+}
+#main-image p
+{
+    margin-bottom: 20px;
+    width: 600px;
+    font-size: 1.3em;
+    font-style: italic;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+}
+.button-1
+{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    background: #F4661B;
+    color: #fff;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+.button-1:hover
+{
+    background: #FF4500;
+}
+/* TOP */
+#top h3
+{
+    margin-top: 80px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 50px;
+    font-style: italic;
+}
+#top article
+{
+    width: 460px;
+    height: 270px;
+	background: white;
+	padding-bottom: 15px;
+	overflow: hidden;
+}
+#top .top-art
+{
+    display: inline-flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 100px;
+}
+#top #bo-art
+{
+    display: inline-flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 170px;
+}
+#top #art1
+{
+    background: url(../pictures/Large_WW234669-min.jpg) no-repeat;
+    background-size: cover;
+    margin-right: 18px;
+}
+#top #art2
+{
+    background: url(../pictures/jamie-street-1yXRqYWma14-unsplash.jpg) no-repeat;
+    background-size: cover;
+}
+#top #art3
+{
+    background: url(../pictures/Lobbying-a-decouvert_key-visual.jpg);
+    background-size: cover;
+    margin-right: 18px;
+}
+#top #art4
+{
+    background: url(../pictures/EP_Zone_humide_Montreal.jpg);
+    background-size: cover;
+}
+#top .contour-image
+{
+    background-color: rgba(255, 255, 255, 0.95);
+    text-align: center;
+    margin-left: 4%;
+    margin-top: 185px;
+    position: fixed;
+    width: 385px
+    
+}
+#top .contour-image h4
+{
+    font-size: 1.6em;
+    padding-top: 10px;
+}
+#top .contour-image p
+{
+    font-size: 1.1em;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+/* NEWS */
+#news
+{
+    height: 800px;
+}
+#news h3
+{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.4em;
+    font-style: italic;
+    margin-top: 50px;
+    margin-bottom: 40px
+}
+#news p
+{
+    width: 500px;
+    display: table;
+    margin: auto;
+    font-size: 1.1em
+    
+}
+#news .button-2
+{
+    display: inline-block;
+    width: 170px;
+    background: #fff;
+    color: #000;
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    border: solid #000 2px;
+    display: table;
+    margin: auto;
+    padding: 5px 10px 5px 10px;
+    margin-top: 40px;
+}
+/* OBJECTIVE */
+#objective
+{
+    height: 550px;
+    background: url(../pictures/elephant-skin.jpg);
+    background-size:contain;
+}
+#objective h3
+{
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 70px;
+    font-style: italic;
+}
+#objective p
+{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    display: table;
+    margin: auto;
+    width: 1000px;
+    font-style: oblique;
+}
+#objective .button-2
+{
+    display: inline-block;
+    width: 100px;
+    background: #fff;
+    color: #000;
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    border: solid #000 2px;
+    display: table;
+    margin: auto;
+    padding: 5px 10px 5px 10px;
+    margin-top: 40px;
+}
+/* POSSIBILITIES */
+#possibilities
+{
+    height: 1150px;
+}
+#possibilities h3
+{
+    margin-top: 60px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 60px;
+    font-style: italic;
+}
+#possibilities .top-art
+{
+    display: inline-flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 80px;
+}
+#possibilities #art5
+{
+    background: url(../pictures/BIOS-1001809.jpg) no-repeat;
+    background-size: cover;
+    margin-right: 18px;
+    width: 460px;
+    height: 290px;
+}
+#possibilities #art5:hover,#possibilities #art6:hover
+{
+    opacity: 0.8;
+}
+#possibilities #art6
+{
+    background: url(../pictures/338925.jpg) no-repeat;
+    background-size: cover;
+    width: 460px;
+    height: 290px;
+}
+#possibilities h1
+{
+    text-align: center;
+    color: #fff;
+    font-size: 2.8em;
+    margin-top: 118px;
+}
+#possibilities #art7
+{
+    background: url(../pictures/116075-min2.jpg) no-repeat;
+    background-size: cover;
+    width: 934px;
+    height: 565px;
+    display: table;
+    margin: auto;
+}
+#possibilities .text-box
+{
+    background: #fff;
+    height: 250px;
+    width: 300px;
+    margin: 155px 0px 0px 70px;
+}
+#possibilities h4
+{
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 35px;
+    font-style: oblique;
+}
+#possibilities p
+{
+    text-align: center;
+    padding: 0 19px;
+}
+#possibilities .button-3
+{
+    display: table;
+    margin: auto;
+    width: 230px;
+    height: 40px;
+    background: #F4661B;
+    color: #fff;
+    font-size: 1em;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 25px;
+}
+#possibilities .button-3:hover
+{
+    background: #FF4500;
+}
+
+
+
+
+
+
+
+
+
+
+/* QUI SOMMES-NOUS ? */
+
+
+/* MAIN IMAGE */
+#main-image2
+{
+    min-height: 48vh;
+    background: url('../pictures/WWF-ballon-2-kopie-Kopie.jpg') no-repeat center;
+    background-size: cover;
+    color: #fff;
+    height: 100%;
+}
+#main-image2 div
+{
+    display: table;
+    margin: auto;
+    width: 900px
+}
+#main-image2 h1
+{
+    font-size: 4em;
+    padding-top: 130px;
+}
+#main-image2 p
+{
+    margin-bottom: 20px;
+    width: 500px;
+    font-size: 1.3em;
+    font-style: italic;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+}
+/* TOP2 */
+#top2 h3
+{
+    margin-top: 80px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 50px;
+    font-style: italic;
+}
+#top2 p
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    display: table;
+    margin: auto;
+    width: 900px;
+    line-height: 160%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* PHOTO-GALLERY*/
+#photo-gallery
+{
+    height: 2665px
+}
+#photo-gallery article
+{
+    width: 460px;
+    height: 270px;
+	background: white;
+	padding-bottom: 15px;
+	overflow: hidden;
+}
+#photo-gallery .row1,#photo-gallery .row2,#photo-gallery .row3,#photo-gallery .row4,#photo-gallery .row5
+{
+    display: inline-flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 120px;
+}
+#photo-gallery #art8
+{
+    background: url(../pictures/279162-min.jpg) no-repeat;
+    background-size: cover;
+    margin-right: 18px;
+}
+#photo-gallery #art9
+{
+    background: url(../pictures/@MargotLhermitte_20180123_Inauguration002-min.png) no-repeat;
+    background-size: cover;
+}
+#photo-gallery #art10
+{
+    background: url(../pictures/WWF-Audencia131216-118-min.jpg) no-repeat;
+    background-size: cover;
+    margin-right: 18px;
+}
+#photo-gallery #art11
+{
+    background: url(../pictures/327667-min.jpg) no-repeat;
+    background-size: cover;
+}
+#photo-gallery #art12
+{
+    background: url(../pictures/111670.jpg) no-repeat;
+    background-size: cover;
+    margin-right: 18px;
+}
+#photo-gallery #art13
+{
+    background: url(../pictures/DSC_1206.jpg) no-repeat;
+    background-size: cover;
+}
+#photo-gallery #art14
+{
+    background: url(../pictures/295664.jpg) no-repeat;
+    background-size: cover;
+    margin-right: 18px;
+}
+#photo-gallery #art15
+{
+    background: url(../pictures/284122.jpg) no-repeat;
+    background-size: cover;
+}
+#photo-gallery #art16
+{
+    background: url(../pictures/Seminaire_Equipe_2016_WWF_France-039.jpg) no-repeat;
+    background-size: cover;
+    margin-right: 18px;
+}
+#photo-gallery #art17
+{
+    background: url(../pictures/257755-min.jpg) no-repeat;
+    background-size: cover;
+}
+#photo-gallery .contour-image
+{
+    background-color: rgba(255, 255, 255, 0.95);
+    text-align: center;
+    margin-left: 4%;
+    margin-top: 185px;
+    position: fixed;
+    width: 385px;
+}
+#photo-gallery .contour-image h4
+{
+    font-size: 1.6em;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+#photo-gallery .contour-image p
+{
+    font-size: 1.1em;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+#photo-gallery #art18
+{
+    background: url(../pictures/2017-07-28.jpg) no-repeat;
+    background-size: cover;
+    width: 934px;
+    height: 550px;
+    display: table;
+    margin: auto;
+}
+#photo-gallery .text-box
+{
+    background: #fff;
+    height: 320px;
+    width: 300px;
+    margin: 120px 0px 0px 570px;
+}
+#photo-gallery h4
+{
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 35px;
+    font-style: oblique;
+}
+#photo-gallery p
+{
+    text-align: center;
+    padding: 0 32px;
+}
+#photo-gallery .button-3
+{
+    display: table;
+    margin: auto;
+    width: 230px;
+    height: 40px;
+    background: #F4661B;
+    color: #fff;
+    font-size: 1em;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+}
+#photo-gallery .button-3:hover
+{
+    background: #FF4500;
+}
+
+
+
+
+
+
+
+
+
+
+/* NOS CHAMPS D'ACTION */
+
+
+/* MAIN IMAGE */
+#main-image3
+{
+    min-height: 48vh;
+    background: url('../pictures/354826-min.jpg') no-repeat center;
+    background-size: cover;
+    color: #fff;
+    height: 100%;
+}
+#main-image3 div
+{
+    display: table;
+    margin: auto;
+    width: 900px
+}
+#main-image3 h1
+{
+    font-size: 4em;
+    padding-top: 130px;
+}
+#main-image3 p
+{
+    margin-bottom: 20px;
+    width: 500px;
+    font-size: 1.3em;
+    font-style: italic;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+}
+/* TOP3 */
+#top3
+{
+    height: 550px;
+}
+#top3 h3
+{
+    margin-top: 80px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 50px;
+    font-style: italic;
+}
+#top3 p
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    display: table;
+    margin: auto;
+    width: 930px;
+    line-height: 170%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* PHOTO-GALLERY2 */
+#photo-gallery2 .row1,#photo-gallery2 .row2,#photo-gallery2 .row3
+{
+    display: inline-flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 15px;
+}
+#photo-gallery2 #art18
+{
+    background: url(../pictures/58134-min.jpg) no-repeat;
+    background-size: cover;
+    margin-right: 15px;
+    width: 460px;
+    height: 290px;
+}
+#photo-gallery2 #art18:hover,#photo-gallery2 #art19:hover,#photo-gallery2 #art20:hover,#photo-gallery2 #art21:hover,#photo-gallery2 #art22:hover
+{
+    opacity: 0.8;
+}
+#photo-gallery2 #art19
+{
+    background: url(../pictures/WWF_NEPAL_4O1A1011-min.jpg) no-repeat;
+    background-size: cover;
+    width: 460px;
+    height: 290px;
+}
+#photo-gallery2 #art20
+{
+    background: url(../pictures/Medium_WW256796_min.jpg) no-repeat;
+    background-size: cover;
+    background-position:center;
+    width: 935px;
+    height: 290px;
+}
+#photo-gallery2 #art21
+{
+    background: url(../pictures/int_047813-min.jpg) no-repeat;
+    background-size: cover;
+    margin-right: 15px;
+    width: 460px;
+    height: 290px;
+}
+#photo-gallery2 #art22
+{
+    background: url(../pictures/2017-07-2822.jpg) no-repeat;
+    background-size: cover;
+    width: 460px;
+    height: 290px;
+}
+#photo-gallery2 h1
+{
+    text-align: center;
+    color: #fff;
+    font-size: 2.8em;
+    margin-top: 118px;
+}
+/* MID3 */
+#mid3
+{
+    height: 480px;
+}
+#mid3 h3
+{
+    margin-top: 80px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 50px;
+    font-style: italic;
+}
+#mid3 p
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    display: table;
+    margin: auto;
+    width: 920px;
+    line-height: 170%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* NEWS3 */
+#news3
+{
+    height: 500px;
+}
+#news3 .wrapper
+{
+    display: inline-flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 930px;
+}
+#news3 img
+{
+    width: 300px;
+}
+#news3 p
+{
+    width: 300px;
+}
+#news3 h5
+{
+    width: 300px;
+    font-size: 1.2em;
+}
+#news3 .row1,#news3 .row2
+{
+    margin-right: 15px;
+}
+#news3 a
+{
+    color: #000;
+    text-decoration: underline;
+}
+/* END3 */
+#end3
+{
+    height: 270px;
+}
+#end3 h3
+{
+    margin-top: 80px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 50px;
+    font-style: italic;
+}
+#end3 p
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    display: table;
+    margin: auto;
+    width: 920px;
+    line-height: 170%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* PHOTO-GALLERY3 */
+#photo-gallery3
+{
+    height: 350px
+}
+#photo-gallery3 .row1
+{
+    display: inline-flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 15px;
+}
+#photo-gallery3 #art23
+{
+    background: url(../pictures/Medium_WW177564-min.jpg) no-repeat;
+    background-size: cover;
+    width: 460px;
+    height: 290px;
+}
+#photo-gallery3 #art23:hover
+{
+    opacity: 0.8;
+}
+#photo-gallery3 h1
+{
+    text-align: center;
+    color: #fff;
+    font-size: 2.2em;
+    margin-top: 124px;
+}
+
+
+
+
+
+
+
+
+
+
+/* AGIR AU QUOTIDIEN */
+
+/* MAIN IMAGE */
+#main-image4
+{
+    min-height: 48vh;
+    background: url('../pictures/tobias-cornille-301605-min.jpg') no-repeat center;
+    background-size: cover;
+    color: #fff;
+    height: 100%;
+}
+#main-image4 div
+{
+    display: table;
+    margin: auto;
+    width: 900px
+}
+#main-image4 h1
+{
+    font-size: 4em;
+    padding-top: 130px;
+}
+#main-image4 p
+{
+    margin-bottom: 20px;
+    width: 500px;
+    font-size: 1.3em;
+    font-style: italic;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+}
+/* TOP4 */
+#top4
+{
+    height: 300px;
+}
+#top4 h3
+{
+    margin-top: 80px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 50px;
+    font-style: italic;
+}
+#top4 p
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    display: table;
+    margin: auto;
+    width: 920px;
+    line-height: 170%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* PHOTO-GALLERY4 */
+#photo-gallery4 .row1,#photo-gallery4 .row2,#photo-gallery4 .row3
+{
+    display: inline-flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 15px;
+}
+#photo-gallery4 #art24:hover,#photo-gallery4 #art25:hover,#photo-gallery4 #art26:hover,#photo-gallery4 #art27:hover,#photo-gallery4 #art26:hover,#photo-gallery4 #art27:hover,#photo-gallery4 #art28:hover,#photo-gallery4 #art29:hover,#photo-gallery4 #art30:hover
+{
+    opacity: 0.8;
+}
+#photo-gallery4 #art24
+{
+    background: url(../pictures/Recette460x287_TEST.jpg) no-repeat;
+    background-size: cover;
+    margin-right: 15px;
+    width: 460px;
+    height: 290px;
+}
+#photo-gallery4 #art25
+{
+    background: url(../pictures/232487.jpg) no-repeat;
+    background-size: cover;
+    width: 460px;
+    height: 290px;
+}
+#photo-gallery4 #art26
+{
+    background: url(../pictures/Medium_WW197940-min_dark.jpg) no-repeat;
+    background-size: cover;
+    margin-right: 15px;
+    width: 302px;
+    height: 200px;
+}
+#photo-gallery4 #art27
+{
+    background: url(../pictures/WW197963-min_dark.jpg) no-repeat;
+    background-size: cover;
+    margin-right: 15px;
+    width: 302px;
+    height: 200px;
+}
+#photo-gallery4 #art28
+{
+    background: url(../pictures/pexels-photo-1181271-min_dark.jpg) no-repeat;
+    background-size: cover;
+    width: 302px;
+    height: 200px;
+}
+#photo-gallery4 #art29
+{
+    background: url(../pictures/WWf%201705%20NeM_DR%2037.jpg) no-repeat;
+    background-size: cover;
+    margin-right: 15px;
+    width: 460px;
+    height: 290px;
+}
+#photo-gallery4 #art30
+{
+    background: url(../pictures/791172_1920_dark.jpg) no-repeat;
+    background-size: cover;
+    width: 460px;
+    height: 290px;
+}
+#photo-gallery4 h1
+{
+    text-align: center;
+    color: #fff;
+    font-size: 2.8em;
+    margin-top: 118px;
+}
+#photo-gallery4 #art25 h1
+{
+    margin-top: 78px;
+}
+#photo-gallery4 .row2 h1
+{
+    font-size: 1.5em;
+    margin-top: 92px;
+}
+#photo-gallery4 .row2 #art28 h1
+{
+    font-size: 1.5em;
+    margin-top: 80px;
+}
+#photo-gallery4 .row3 #art29 h1
+{
+    margin-top: 45px;
+}
+#photo-gallery4 .row3 #art30 h1
+{
+    margin-top: 100px;
+}
+/* MID4 */
+#mid4 h3
+{
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 40px;
+    font-style: italic;
+}
+/* PHOTO-GALLERY5 */
+#photo-gallery5 article
+{
+    width: 460px;
+    height: 270px;
+	background: white;
+	padding-bottom: 15px;
+	overflow: hidden;
+}
+#photo-gallery5 .row1
+{
+    display: inline-flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 120px;
+}
+#photo-gallery5 #art31
+{
+    background: url(../pictures/photo_main_nature_1200x857-min.jpg) no-repeat;
+    background-size: cover;
+    margin-right: 18px;
+}
+#photo-gallery5 #art32
+{
+    background: url(../pictures/EH%20Madagascar.jpg) no-repeat;
+    background-size: cover;
+}
+#photo-gallery5 .contour-image
+{
+    background-color: rgba(255, 255, 255, 0.95);
+    text-align: center;
+    margin-left: 4%;
+    margin-top: 185px;
+    position: fixed;
+    width: 385px;
+}
+#photo-gallery5 .contour-image h4
+{
+    font-size: 1.6em;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+#photo-gallery5 .contour-image p
+{
+    font-size: 1.1em;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+
+
+
+
+
+
+
+
